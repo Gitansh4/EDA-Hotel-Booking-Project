@@ -5,8 +5,8 @@ We are provided with a hotel bookings dataset.
 Out main objective is perform EDA on the given dataset and draw useful conclusions about general trends in hotel bookings and how factors governing hotel bookings interact with each other.
 
 # Dataset
-<code> We are given a hotel bookings dataset. This dataset contains booking information for a city hotel and a resort hotel. It contains the following features.
-
+<code> 
+We are given a hotel bookings dataset. This dataset contains booking information for a city hotel and a resort hotel. It contains the following features.
 - hotel: Name of hotel ( City or Resort)
 - is_canceled: Whether the booking is canceled or not (0 for no canceled and 1 for canceled)
 - lead_time: time (in days) between booking transaction and actual arrival.
@@ -57,6 +57,7 @@ One outlier was found in the adr column. Simply dropped it.
 Created new column total_stay by adding stays_in_weekend_nights+stays_in_week_nights.
 Created new column total_people by adding adults+children+babies.
 </code>
+
 # Exploratory Data Analysis
 <code>
 Performed EDA and tried answering the following questions:
