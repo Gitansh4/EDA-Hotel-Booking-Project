@@ -58,9 +58,9 @@ Created new column total_stay by adding stays_in_weekend_nights+stays_in_week_ni
 Created new column total_people by adding adults+children+babies.
 </code>
 # Exploratory Data Analysis
-` Performed EDA and tried answering the following questions:
-
- Q1) Which agent makes the most no. of bookings?
+<code>
+Performed EDA and tried answering the following questions:
+Q1) Which agent makes the most no. of bookings?
  Q2) Which room type is in most demand and which room type generatesthe  highest adr?
  Q3) Which meal type isthe  most preffered meal of customers?
  Q4) What isthe  percentage of bookings in each hotel?
@@ -81,21 +81,19 @@ Created new column total_people by adding adults+children+babies.
  Q19) Whether not getting allotted the same room type as demand is the main cause of cancellation for bookings?
  Q20) Does not alloting the  same room as demanded affect adr? 
  Q21) Which types of customers mostly make bookings?
-
 Mainly performed using Matplotlib and Seaborn library and the following graph and plots had been used:
-
 Bar Plot.
 Histogram.
 Scatter Plot.
 Pie Chart.
 Line Plot.
 Heatmap.
-Box Plot `
+Box Plot
+</code>
+
 # Univariate Analysis:
+<code>
 Performed univariate analysis and made following conclusions:
-
-
-
  1.) Agent no. 9 has made most no. of bookings.
  2.) Most demanded room type is A, but better adr generating rooms H, G and C. Hotels should increase the no. of room types A and H to maximise revenue.
  3.) Most popular meal type is BB(Bed and Breakfast).
@@ -104,10 +102,11 @@ Performed univariate analysis and made following conclusions:
  6.) July- August are the most busier and profitable months for both of hotels. 
  7.) Most of the guests came from european countries, with highest number of guests from Portugal.
  8.) Most common stay length is less than 4 days and generally people prefer City hotel for short stay, but for long stays, Resort Hotel is preferred.
- 
-# Bivariate Analysis :
-We can draw the conclusions as under :
+</code>
 
+# Bivariate Analysis :
+<code>
+We can draw the conclusions as under :
  1.) Overall adr of City hotel is slightly higher than Resort hotel and no. of bookings of City hotel is also higher than Resort hotel. Hence, City hotel is makes more revenue.
  2.) City hotel has slightly higher median lead time. Also median lead time is significantly higher for both hotels, this means customers generally plan their hotel   visits way early.
  3.) Almost 30 % of City Hotel bookings got canceled.
@@ -121,7 +120,10 @@ We can draw the conclusions as under :
  11.) Not getting same room do affects the adr, people who didn't got same room have paid a little lower adr. 
  12.) Arrivals in hotels increases at weekends and also the avg adr tends to go up as month ends. 
  13.)Moslty bookings are done by couples(bookings have two adults.)
+</code>
+
 # Conclusion
+<code>
 (1) Around 60% bookings are for City hotel and 40% bookings are for Resort hotel, therefore City Hotel is busier than Resort hotel. Also the overall adr of City hotel is slightly higher than Resort hotel.
 (2) Mostly guests stay for less than 5 days in hotel and for longer stays Resort hotel is preferred.
 (3) Both hotels have significantly higher booking cancellation rates and very few guests less than 3 % return for another booking in City hotel. 5% guests return for stay in Resort hotel.
@@ -136,11 +138,13 @@ We can draw the conclusions as under :
 (12) More number of people in guests results in more number of special requests.
 (13) Bookings made via complementary market segment and adults have on average high no. of special request.
 (14) For customers, generally the longer stays (more than 15 days) can result in better deals in terms of low adr.
-
 And many more conclusions.
-# Challenges
+</code>
 
+# Challenges
+<code>
 (1) There was a lot of duplicate data.
 (2) Data was present in wrong datatype format.
 (3) Choosing appropriate visualization techniques to use was difficult.
 (4) A lot of null values were there in the dataset.
+</code>
