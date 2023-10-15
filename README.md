@@ -5,9 +5,7 @@ We are provided with a hotel bookings dataset.
 Out main objective is perform EDA on the given dataset and draw useful conclusions about general trends in hotel bookings and how factors governing hotel bookings interact with each other.
 
 # Dataset
-We are given a hotel bookings dataset. This dataset contains booking information for a city hotel and a resort hotel. It contains the following features.
-
-
+<code> We are given a hotel bookings dataset. This dataset contains booking information for a city hotel and a resort hotel. It contains the following features.
 
 - hotel: Name of hotel ( City or Resort)
 - is_canceled: Whether the booking is canceled or not (0 for no canceled and 1 for canceled)
@@ -25,8 +23,7 @@ We are given a hotel bookings dataset. This dataset contains booking information
 - country: Country of origin of customers (as mentioned by them)
 - market_segment: What segment via booking was made and for what purpose.
 - distribution_channel: Via which medium booking was made.
-- is_repeated_guest: Whether the customer has made any booking before(0 for No and 1 for 
-                     Yes)
+- is_repeated_guest: Whether the customer has made any booking before(0 for No and 1 for Yes)
 - previous_cancellations: No. of previous canceled bookings.
 - previous_bookings_not_canceled: No. of previous non-canceled bookings.
 - reserved_room_type: Room type reserved by a customer.
@@ -47,7 +44,6 @@ Total number of columns: 32
 Data Cleaning and Feature Engineering
 (1) Removing Duplicate rows
 All duplicate rows were dropped.
-
 (2) Handling null values
 Null values in columns company and agent were replaced by 0.
 Null values in column country were replaced by 'others'.
@@ -60,6 +56,7 @@ One outlier was found in the adr column. Simply dropped it.
 (5) Creating new columns
 Created new column total_stay by adding stays_in_weekend_nights+stays_in_week_nights.
 Created new column total_people by adding adults+children+babies.
+</code>
 # Exploratory Data Analysis
 ` Performed EDA and tried answering the following questions:
 
