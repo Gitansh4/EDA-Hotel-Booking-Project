@@ -61,7 +61,7 @@ One outlier was found in the adr column. Simply dropped it.
 Created new column total_stay by adding stays_in_weekend_nights+stays_in_week_nights.
 Created new column total_people by adding adults+children+babies.
 # Exploratory Data Analysis
-Performed EDA and tried answering the following questions:
+``` Performed EDA and tried answering the following questions:
 
  Q1) Which agent makes the most no. of bookings?
  Q2) Which room type is in most demand and which room type generatesthe  highest adr?
@@ -93,7 +93,7 @@ Scatter Plot.
 Pie Chart.
 Line Plot.
 Heatmap.
-Box Plot
+Box Plot ```
 # Univariate Analysis:
 Performed univariate analysis and made following conclusions:
 
